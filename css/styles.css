@@ -116,7 +116,8 @@ img {
   gap: 40px;
 }
 
-.address-mail .address-tel {
+.address-mail,
+.address-tel {
   display: block;
   padding: 24px 0;
   font-family: "Roboto", sans-serif;
@@ -214,7 +215,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.benefits-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -246,10 +247,12 @@ img {
   display: flex;
   gap: 24px;
 }
+.team-content {
+  padding: 32px 16px;
+}
 
 .team-subtitle {
   margin-top: 32px;
-  margin-bottom: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -315,7 +318,7 @@ img {
 .portfolio-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: nome;
+  border-top: none;
 }
 .portfolio-subtitle {
   font-family: "Roboto", sans-serif;
